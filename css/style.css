@@ -98,7 +98,7 @@ img{
 .showcase-form input[type="text"],
 .showcase-form input[type="email"]{
     border: 0;
-    border-bottom: 1px solid #b4decd;
+    border-bottom: 1px solid #3a4440;
     width: 100%;
     padding: 3px;
     font-size: 16px;
@@ -119,3 +119,34 @@ img{
 }
 
 /* Showcase End */
+
+/* Stats starts here */
+.stats{
+    padding-top: 100px;
+    animation: slideInFromBottom 1s ease-in;
+}
+.stats-heading{
+    max-width: 500px;
+    margin:  auto;
+}
+.stats .grid h3{
+    font-size: 35px;
+}
+
+.stats .grid p{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* End of stats */
+
+
+/* Start of cli */
+.cli .grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.cli .grid>*:first-child{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+/* End of cli  */
