@@ -103,5 +103,19 @@ img{
     padding: 3px;
     font-size: 16px;
 }
+.showcase::before,
+.showcase::after{
+    content:'';
+    position: absolute;
+    height: 100px;
+    bottom: -70px ;
+    right: 0;
+    left: 0;
+    background: white;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -webkit-transform: scaleY(-3deg);
+    -webkit-transform: scaleY(-3deg);
+}
 
 /* Showcase End */
