@@ -130,7 +130,7 @@
 }
 
 .alert-success {
-    background-color: var(--success-color);
+    background-color: #5cb85c;
     color: #fff;
 }
 
